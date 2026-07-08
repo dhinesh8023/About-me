@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of a passionate fresher — projects, skills, internships & hackathons." />
+  <title>Dhinesh J | Fresher Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+      <canvas id="particle-canvas" aria-hidden="true"></canvas>
+  <div class="gradient-orbs" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>Dhinesh<span class="logo-bracket">&gt;</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#certificates" class="nav-link">Certificates</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero section" id="home">
+      <div class="container hero-content">
+        <p class="hero-greeting animate-fade-up">Hello, I'm</p>
+        <h1 class="hero-name animate-fade-up delay-1">
+          <span class="gradient-text">Dhinesh J</span>
+        </h1>
+        <p class="hero-role animate-fade-up delay-2">
+          Aspiring <span id="typed-text"></span><span class="cursor-blink">|</span>
+        </p>  
+        <p class="hero-desc animate-fade-up delay-3">
+          A passionate fresher eager to learn, build, and grow. I love turning ideas into
+          real projects through internships, hackathons, and hands-on coding.
+        </p>
+        <div class="hero-buttons animate-fade-up delay-4">
+          <a href="#projects" class="btn btn-primary">
+            <i class="fas fa-code"></i> View Projects
+          </a>
+          <a href="#certificates" class="btn btn-outline">
+            <i class="fas fa-certificate"></i> Certificates
+          </a>
+          <a href="resume.pdf.jpeg" class="btn btn-outline" download>
+            <i class="fas fa-download"></i> Resume
+          </a>
+          <br>
+        </div>
+        <div class="hero-social animate-fade-up delay-5">
+          <a href="https://github.com/Dhinesh8023" target="_blank" rel="noopener" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/dhinesh-jayavel-129a66315" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+           <a href="https://wa.me/919363930584" target="_blank"><i class='fab fa-whatsapp'></i>
+              </a>
+        </div>
+        </div>
+      </div>
+      </div>
+      <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+        <span class="mouse">
+          <span class="wheel"></span>
+        </span>
+      </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title" data-animate>About <span class="gradient-text">Me</span></h2>
+        <p class="section-subtitle" data-animate>Get to know the person behind the code</p>
+        <div class="about-grid">
+<div class="about-image" data-animate>
+    <div class="hang-rig">
+        <span class="hang-pin"></span>
+        <div class="hang-string"></div>
+        <div class="image-frame">
+            <div class="frame-clip"></div>
+            <img src="profile.jpg" alt="Dhinesh J" class="profile-image">
+            <div class="image-glow"></div>
+            <span class="status-badge"><i class="fas fa-circle"></i> Open to work</span>
+        </div>
+    </div>
+</div>  
+          <div class="about-text" data-animate>
+            <h3>3rd Year Student Ready to Make an Impact</h3>
+            <p>
+              I'm a 3rd year student with a strong foundation in Information Technology and a hunger
+              to apply what I've learned in the real world. Through internships and hackathons,
+              I've gained practical experience in building web applications, solving problems
+              under pressure, and collaborating with teams.
+            </p>
+            <p>
+              I'm actively looking for opportunities where I can contribute, learn from
+              experienced mentors, and grow into a skilled software developer.
+            </p>
+            <ul class="about-highlights">
+              <li><i class="fas fa-check-circle"></i> Strong problem-solving mindset</li>
+              <li><i class="fas fa-check-circle"></i> Quick learner & team player</li>
+              <li><i class="fas fa-check-circle"></i> Hackathon & internship experience</li>
+              <li><i class="fas fa-check-circle"></i> Passionate about clean code</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <h2 class="section-title" data-animate>My <span class="gradient-text">Skills</span></h2>
+        <p class="section-subtitle" data-animate>Technologies I'm learning and working with</p>
+        <div class="skills-grid">
+          <div class="skill-card" data-animate>
+            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+            <h4>HTML & CSS</h4>
+            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+          <div class="skill-card" data-animate>
+            <div class="skill-icon"><i class="fab fa-js"></i></div>
+            <h4>JavaScript</h4>
+            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+          </div>
+          <div class="skill-card" data-animate>
+            <div class="skill-icon"><i class="fab fa-python"></i></div>
+            <h4>Python</h4>
+            <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+          </div>
+          <div class="skill-card" data-animate>
+            <div class="skill-icon"><i class="fab fa-react"></i></div>
+            <h4>React</h4>
+            <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+          </div>
+          <div class="skill-card" data-animate>
+            <div class="skill-icon"><i class="fas fa-database"></i></div>
+            <h4>SQL / Databases</h4>
+            <div class="skill-bar"><div class="skill-fill" data-width="72"></div></div>
+          </div>
+          <div class="skill-card" data-animate>
+            <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+            <h4>Git & GitHub</h4>
+            <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
+          </div>
+        </div>
+        <div class="tools-row" data-animate>
+          <span class="tool-tag">VS Code</span>
+          <span class="tool-tag">Figma</span>
+          <span class="tool-tag">Postman</span>
+          <span class="tool-tag">Linux</span>
+          <span class="tool-tag">MongoDB</span>
+          <span class="tool-tag">Firebase</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title" data-animate>My <span class="gradient-text">Projects</span></h2>
+        <p class="section-subtitle" data-animate>Academic & personal projects I've built</p>
+        <div class="projects-grid">
+          <article class="project-card" data-animate>
+            <div class="project-image">
+              <div class="project-placeholder"><i class="fas fa-search"></i></div>
+            </div>
+            <div class="project-body">
+              <h3>Campus Lost & Found</h3>
+              <p>Developed a user-friendly web application that allows users to post, browse, and claim lost and found items within the campus community..</p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="https://dhinesh8023.github.io/Campus-L-T/"
+                  target="_blank"><i class="fab fa-github"></i> Code</a>
+                <a href="https://dhinesh8023.github.io/Campus-L-T/"
+                  target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-animate>
+            <div class="project-image">
+              <div class="project-placeholder"><i class="fas fa-tasks"></i></div>
+            </div>
+            <div class="project-body">
+              <h3>Smart Notes</h3>
+              <p>A smart note-taking application with drag-and-drop, local storage, and dark mode — built for a hackathon.</p>
+              <div class="project-tags">
+                <span>React</span><span>CSS</span><span>LocalStorage</span>
+              </div>
+              <div class="project-links">
+                <a href="https://dhinesh8023.github.io/WD-project-2/" target="_blank"><i class="fab fa-github"></i> Code</a>
+                <a href="https://dhinesh8023.github.io/WD-project-2/" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+              </div>
+            </div>
+          </article>
+
+           <article class="project-card" data-animate>
+            <div class="project-image">
+              <div class="project-placeholder"><i class="fas fa-desktop"></i></div>
+            </div>
+            <div class="project-body">
+              <h3>Responsive Page</h3>
+              <p>A responsive web page with a modern design and smooth animations.</p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="https://dhinesh8023.github.io/Responsive-page/" target="_blank"><i class="fab fa-github"></i> Code</a>
+                <a href="https://dhinesh8023.github.io/Responsive-page/" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-animate>
+            <div class="project-image">
+              <div class="project-placeholder"><i class="fas fa-book"></i></div>
+            </div>
+            <div class="project-body">
+              <h3>Study Material</h3>
+              <p>A platform for sharing and accessing study materials with a clean, intuitive interface.</p>
+              <div class="project-tags">
+                <span>React</span><span>CSS</span><span>Flask</span>
+              </div>
+              <div class="project-links">
+                <a href="https://study-material-6gje.vercel.app/browse" target="_blank"><i class="fab fa-github"></i> Code</a>
+                <a href="https://study-material-6gje.vercel.app/browse" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-animate>
+            <div class="project-image">
+              <div class="project-placeholder"><i class="fas fa-think"></i></div>
+            </div>
+            <div class="project-body">
+              <h3>Quiz Web Page</h3>
+              <p>A simple quiz web page with multiple-choice questions and a timer.</p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="https://dhinesh8023.github.io/Quiz-/" target="_blank"><i class="fab fa-github"></i> Code</a>
+                <a href="https://dhinesh8023.github.io/Quiz-/" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+              </div>
+            </div>
+          </article>
+
+
+
+          <article class="project-card" data-animate>
+            <div class="project-image">
+              <div class="project-placeholder"><i class="fas fa-truck"></i></div>
+            </div>
+            <div class="project-body">
+              <h3>Drive legal</h3>
+              <p>An AI-powered legal assistant that helps users understand traffic rules, driving regulations, and road safety through an interactive web application.</p>
+              <div class="project-tags">
+                <span>JavaScript</span><span>API</span><span>CSS</span>
+              </div>
+              <div class="project-links">
+                <a href="https://dhinesh8023.github.io/Drive-legal-up/" target="_blank"><i class="fab fa-github"></i> Code</a>
+                <a href="https://dhinesh8023.github.io/Drive-legal-up/" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <h2 class="section-title" data-animate><span class="gradient-text">Education</span></h2>
+        <p class="section-subtitle" data-animate>My academic journey</p>
+        <div class="timeline">
+          <div class="timeline-item" data-animate>
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2024 – 2028</span>
+              <h3>B.Tech in Information Technology</h3>
+              <p class="timeline-org">Hindusthan College of Engineering & Technology , Coimbatore.</p>
+              <p>CGPA: 8.5 / 10 — Coursework: Data Structures, DBMS, Web Development, Machine Learning</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-animate>
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2023 – 2024</span>
+              <h3>Higher Secondary (12th)</h3>
+              <p class="timeline-org">Pachamuthu Matric Higher Secondary School , Dharmapuri.</p>
+              <p>Percentage: 90% — An Maths-Biology Student </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="section" id="certificates">
+      <div class="container">
+        <h2 class="section-title" data-animate><span class="gradient-text">Certificates</span></h2>
+        <p class="section-subtitle" data-animate>Internship & hackathon achievements</p>
+
+        <div class="cert-filters" data-animate>
+          <button class="cert-filter active" data-filter="all">All</button>
+          <button class="cert-filter" data-filter="internship">
+            <i class="fas fa-briefcase"></i> Internships
+          </button>
+          <button class="cert-filter" data-filter="workshop">
+            <i class="fas fa-laptop"></i> Workshops
+          </button>
+        </div>
+
+        <div class="certificates-grid" id="certificates-grid">
+          <div class="cert-card" data-category="internship" data-animate>
+            <div class="cert-image-wrap" data-cert="internship certificate.png" data-title="Web Development Internship — Glowlogics">
+              <img src="internship certificate.png" alt="Web Development Internship Certificate"
+                   onerror="this.parentElement.classList.add('cert-placeholder'); this.style.display='none';" />
+              <div class="cert-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>View Certificate</span>
+              </div>
+            </div>
+            <div class="cert-info">
+              <span class="cert-badge Internship"><i class="fas fa-graduation-cap"></i> Internship</span>
+              <h3>Web Development Intern</h3>
+              <p>Glowlogics · feb 2026 – may 2026</p>
+            </div>
+          </div>
+
+          <div class="cert-card" data-category="internship" data-animate>
+            <div class="cert-image-wrap" data-cert="Course Completion Certificate.png" data-title="Full Stack Development Course Completion — Glowlogics">
+              <img src="Course Completion Certificate.png" alt="Full Stack Development Course Completion Certificate"
+                   onerror="this.parentElement.classList.add('cert-placeholder'); this.style.display='none';" />
+              <div class="cert-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>View Certificate</span>
+              </div>
+            </div>
+            <div class="cert-info">
+              <span class="cert-badge course"><i class="fas fa-graduation-cap"></i> Course Completion</span>
+              <h3>Full Stack Development Course Completion</h3>
+              <p>Glowlogics · feb 2026 – May 2026</p>
+            </div>
+          </div>
+<div class="cert-card" data-category="course" data-animate>
+            <div class="cert-image-wrap" data-cert="Infosys Springboard.png" data-title="Python Foundation Certification — Infosys Springboard">
+              <img src="Infosys Springboard.png" alt="Python Foundation Certification"
+                   onerror="this.parentElement.classList.add('cert-placeholder'); this.style.display='none';" />
+              <div class="cert-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>View Certificate</span>
+              </div>
+            </div>
+            <div class="cert-info">
+              <span class="cert-badge course"><i class="fas fa-graduation-cap"></i> Course</span>
+              <h3>Python Foundation Certification</h3>
+              <p>Infosys Springboard · May 2026</p>
+            </div>
+          </div>
+          <!-- Workshop Certificates -->
+          <div class="cert-card" data-category="workshop" data-animate>
+            <div class="cert-image-wrap" data-cert="Entrepreneurship Development Cell participant Certificate.jpeg" data-title="Entrepreneurship Development Cell participant Certificate">
+              <img src="Entrepreneurship Development Cell participant Certificate.jpeg" alt="Entrepreneurship Development Cell participant Certificate"
+                   onerror="this.parentElement.classList.add('cert-placeholder'); this.style.display='none';" />
+              <div class="cert-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>View Certificate</span>
+              </div>
+            </div>
+            <div class="cert-info">
+              <span class="cert-badge participant"><i class="fas fa-trophy"></i> Participant</span>
+              <h3>Entrepreneurship Development Cell</h3>
+              <p>Participant · 2025</p>
+            </div>
+          </div>
+
+          <div class="cert-card" data-category="workshop" data-animate>
+            <div class="cert-image-wrap" data-cert="Pumo tech Workshop.jpeg" data-title="Pumo tech Workshop Certificate">
+              <img src="Pumo tech Workshop.jpeg" alt="Pumo tech Workshop Certificate"
+                   onerror="this.parentElement.classList.add('cert-placeholder'); this.style.display='none';" />
+              <div class="cert-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>View Certificate</span>
+              </div>
+            </div>
+            <div class="cert-info">
+              <span class="cert-badge workshop"><i class="fas fa-laptop"></i> Workshop</span>
+              <h3>Pumo tech Workshop</h3>
+              <p>Participant · 2025</p>
+            </div>
+          </div>
+
+          <div class="cert-card" data-category="workshop" data-animate>
+            <div class="cert-image-wrap" data-cert="Be10x Workshop.png" data-title="Be10x Workshop Certificate">
+              <img src="Be10x Workshop.png" alt="Be10x Workshop Certificate"
+                   onerror="this.parentElement.classList.add('cert-placeholder'); this.style.display='none';" />
+              <div class="cert-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span>View Certificate</span>
+              </div>
+            </div>
+            <div class="cert-info">
+              <span class="cert-badge workshop"><i class="fas fa-laptop"></i> Workshop</span>
+              <h3>Be10x Workshop</h3>
+              <p>Participant · 2025</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="cert-note" data-animate>
+          <i class="fas fa-info-circle"></i>
+          Add your certificate images to <code>assets/certificates/</code> folder (JPG or PNG).
+        </p>
+      </div>
+    </section>
+
+    <!-- What I Can Do For You Section -->
+    <section class="section section-alt" id="services">
+      <div class="container">
+        <h2 class="section-title" data-animate>What I Can Do <span class="gradient-text">For You</span></h2>
+        <p class="section-subtitle" data-animate>Skills and services I bring to a team or project</p>
+        <div class="services-grid">
+          <div class="service-card" data-animate>
+            <div class="service-icon"><i class="fas fa-code"></i></div>
+            <h3>Web Development</h3>
+            <p>Building responsive, fast-loading websites and web apps from scratch using HTML, CSS, JavaScript, and React.</p>
+          </div>
+          <div class="service-card" data-animate>
+            <div class="service-icon"><i class="fas fa-mobile-screen-button"></i></div>
+            <h3>Responsive Design</h3>
+            <p>Crafting layouts that look and work great on any device — mobile, tablet, or desktop.</p>
+          </div>
+          <div class="service-card" data-animate>
+            <div class="service-icon"><i class="fas fa-server"></i></div>
+            <h3>Full Stack Solutions</h3>
+            <p>Connecting front-end interfaces with back-end logic and databases to build complete, working applications.</p>
+          </div>
+          <div class="service-card" data-animate>
+            <div class="service-icon"><i class="fas fa-bug"></i></div>
+            <h3>Debugging & Optimization</h3>
+            <p>Tracking down issues and improving performance so applications run smoothly and reliably.</p>
+          </div>
+          <div class="service-card" data-animate>
+            <div class="service-icon"><i class="fas fa-people-group"></i></div>
+            <h3>Team Collaboration</h3>
+            <p>Working effectively in teams under deadlines, honed through hackathons and internship experience.</p>
+          </div>
+          <div class="service-card" data-animate>
+            <div class="service-icon"><i class="fas fa-lightbulb"></i></div>
+            <h3>Fast Learning</h3>
+            <p>Quickly picking up new tools, frameworks, and workflows to adapt to a project's needs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section-title" data-animate>Get In <span class="gradient-text">Touch</span></h2>
+        <p class="section-subtitle" data-animate>I'm open to internships and entry-level opportunities</p>
+        <div class="contact-grid">
+          <div class="contact-info" data-animate>
+            <div class="contact-card">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:your.dhineshjayavel35@gmail.com">dhineshjayavel35@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-card">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Phone</h4>
+                <a href="tel:+919363930584">+91 9363930584</a>
+              </div>
+            </div>
+            <div class="contact-card">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Location</h4>
+                <p>Coimbatore , Tamil Nadu, India</p>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" id="contact-form" data-animate action="https://formspree.io/f/xykdlvqr" method="POST">
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Your Email" required />
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" name="subject" placeholder="Subject" required />
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2025 <span class="gradient-text">Dhinesh J</span>. Built with passion.</p>
+      <div class="footer-social">
+        <a href="https://github.com/Dhinesh8023" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/dhinesh-jayavel-129a66315" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+         <a href="https://wa.me/919363930584" target="_blank"><i class='fab fa-whatsapp'></i>
+              </a>      
+            </div>
+    </div>
+  </footer>
+
+  <!-- Certificate Lightbox Modal -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close">
+      <i class="fas fa-times"></i>
+    </button>
+    <div class="lightbox-content">
+      <h3 id="lightbox-title"></h3>
+      <img id="lightbox-img" src="" alt="Certificate" />
+    </div>
+  </div>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
