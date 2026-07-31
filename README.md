@@ -31,6 +31,5 @@ Connect With Me
 - Portfolio: https://about-me-woad-phi.vercel.app/
 - Email: dhineshjayavel35@gmail.com
 - Whatsapp: 9363930584
-- Email: [Your Email]
 
 ⭐ Always learning, building, and exploring new technologies!
